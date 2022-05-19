@@ -1,0 +1,24 @@
+<body>
+    <div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="../../../assets/images/logo.jpg" />
+            <form class="form-signin">
+                <input  id="inputEmail" class="form-control" placeholder="Usuario" required autofocus>
+                <p></p>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Ingresa tu contraseña" required>
+                <p></p>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate"> Recuérdame
+                    </label>
+                </div>
+                <p></p>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" (click)="iniciarSesion()" type="submit"><i class="bi bi-key"></i> Iniciar Sesión</button>
+            </form>
+            <p></p>
+            <a href="#" class="forgot-password">
+                Olvidaste la contraseña?
+            </a>
+        </div>
+    </div>
+</body>
